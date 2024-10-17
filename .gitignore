@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Env
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+coverage
+.eslintcache
+
+# OSX
+.DS_Store
+
+release/app/dist
+release/build
+/build
+.erb/dll
+
+
+# Ignore local cache files
+**/**/yarn.lock
+**/**/yarn-error.json
+**/**/package-lock.json
+yarn.lock
+package-lock.json
+yarn-error.json
